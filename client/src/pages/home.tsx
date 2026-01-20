@@ -146,30 +146,15 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* Proof strip */}
-      <section className="py-10 border-y border-white/5 bg-background/80">
-        <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row gap-8 md:items-center md:justify-between">
-          <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-white/40" data-testid="text-proof-kicker">
+      {/* Proof strip - rustiger, enkel één regel */}
+      <section className="py-6 border-t border-white/5 bg-background/60">
+        <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4">
+          <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-white/40" data-testid="text-proof-kicker">
             In 90 dagen naar regie
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-4xl">
-            <div className="space-y-1" data-testid="text-proof-item-1">
-              <p className="text-xs font-mono text-white/40 uppercase tracking-widest">Resultaat</p>
-              <p className="text-sm text-white/80">Eén versie van de waarheid</p>
-            </div>
-            <div className="space-y-1" data-testid="text-proof-item-2">
-              <p className="text-xs font-mono text-white/40 uppercase tracking-widest">KPI's</p>
-              <p className="text-sm text-white/80">Eigenaarschap per stuur-KPI</p>
-            </div>
-            <div className="space-y-1" data-testid="text-proof-item-3">
-              <p className="text-xs font-mono text-white/40 uppercase tracking-widest">Ritme</p>
-              <p className="text-sm text-white/80">Vast MT- & teamritme</p>
-            </div>
-            <div className="space-y-1" data-testid="text-proof-item-4">
-              <p className="text-xs font-mono text-white/40 uppercase tracking-widest">Focus</p>
-              <p className="text-sm text-white/80">Minder rapporten, meer besluiten</p>
-            </div>
-          </div>
+          </span>
+          <p className="text-sm text-white/70" data-testid="text-proof-line">
+            Eén versie van de waarheid · eigenaarschap per stuur-KPI · vast MT-ritme · minder rapporten, meer besluiten.
+          </p>
         </div>
       </section>
 

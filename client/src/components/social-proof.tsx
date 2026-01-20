@@ -9,7 +9,7 @@ const clients = [
 
 export function SocialProof() {
   return (
-    <section className="border-y border-white/5 bg-black/40 backdrop-blur-sm py-16 overflow-hidden">
+    <section className="border-t border-white/5 bg-background/80 backdrop-blur-sm py-12 overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row gap-12 items-center">
          <div className="w-full md:w-auto md:border-r border-white/10 md:pr-12 text-center md:text-left shrink-0">
             <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40 block mb-2">Eerdere trajecten</span>
