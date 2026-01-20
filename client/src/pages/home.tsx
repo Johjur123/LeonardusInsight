@@ -5,6 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BentoGrid } from "@/components/bento-grid";
 import { SocialProof } from "@/components/social-proof";
+import { NeedSelector } from "@/components/need-selector";
 import { MagneticCursor } from "@/components/magnetic-cursor";
 import { useEffect } from "react";
 import Lenis from "lenis";
@@ -119,10 +120,12 @@ export default function Home() {
 
       <SocialProof />
 
+      <NeedSelector />
+
       <BentoGrid />
 
       {/* Quote Section (High Contrast) */}
-      <section className="py-32 bg-primary/10 relative overflow-hidden">
+      <section id="impact" className="py-32 bg-primary/10 relative overflow-hidden">
          <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[150px] -translate-y-1/2 translate-x-1/3 pointer-events-none" />
          
          <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">

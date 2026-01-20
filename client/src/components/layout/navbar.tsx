@@ -20,7 +20,7 @@ export function Navbar() {
   const navItems = [
     { label: "Insights", href: "#insights" },
     { label: "Expertise", href: "#expertise" },
-    { label: "Method", href: "#method" },
+    { label: "Impact", href: "#impact" },
   ];
 
   const handleNavClick = (href: string) => {
