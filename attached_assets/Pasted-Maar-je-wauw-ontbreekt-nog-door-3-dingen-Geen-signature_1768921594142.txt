@@ -1,0 +1,232 @@
+Maar je “wauw” ontbreekt nog door 3 dingen:
+
+Geen “signature move”: elke sectie voelt als variatie op hetzelfde (headline + tekst + kaartjes).
+
+Te weinig bewijs + concreet resultaat: het klinkt slim, maar niet “onvermijdelijk waar” + tastbaar.
+
+Positionering te boardroom-formeel / te zwaar: “Fractional Head of BI” en “bestuurskamer” geven een senior-consultancy vibe die niet matcht met jouw model (regie brengen, team opzetten, governance, richting, duurzaam organiseren).
+
+Hieronder een volledig rapport + een kant-en-klaar feedback prompt voor je Replit-agent.
+
+Expertpanel (samenvatting in 10 bullets)
+
+Brand/Strategy lead
+
+Kies 1 kernbelofte die overal terugkomt: “Regie op data. Zodat MT’s kunnen sturen.”
+
+Vermijd “Fractional Head of BI” als primaire titel → te zwaar en te eng.
+
+Conversion copywriter
+
+Te veel abstracte woorden (“bestuurlijk”, “governance”, “strategie”) zonder harde concreetheid.
+
+Voeg “bewijs-taal” toe: wat levert het op, wat verdwijnt, wat blijft, in welke tijd.
+
+UX lead
+
+Visueel ritme ontbreekt: te veel “grid met cards”.
+
+Maak secties meer “editorial”: full-bleed, asymmetrie, pull-quotes, grote cijfers.
+
+Creative director
+
+Je mist een visuele signatuur: een eigen kleuraccent, textuur/noise, typografische details, signature pattern.
+
+Motion designer
+
+Je hoeft geen klik-interactieC/quiz. Wel: subtiele scroll-reveals, parallax, “cinematic” achtergrondbeweging.
+
+Tech lead
+
+Voeg motion toe met lichte libraries (Framer Motion in React) + CSS gradients/noise; performance blijft goed.
+
+Wat er concreet mist (en waarom het nu niet blijft hangen)
+1) Je verhaal start niet hard genoeg
+
+Je hero is mooi, maar de eerste secties moeten “haak” geven:
+een herkenbare situatie + scherpe tegenstelling + belofte.
+
+Beste haak die jij al had (sterk):
+
+“Als morgen twee dashboards elkaar tegenspreken — wie beslist dan wat klopt?”
+
+Dat is je signature narrative. Zet die eerder en maak hem visueel dominant.
+
+2) Te weinig “proof points”
+
+Voeg direct na hero een “proof strip” toe (zonder te liegen, maar wel concreet):
+
+“90 dagen naar regie”
+
+“KPI-eigenaarschap”
+
+“1 versie van de waarheid”
+
+“Minder rapporten, meer besluiten”
+
+En als je nog geen cases mag noemen: gebruik “typische resultaten” / “wat je na 90 dagen ziet”.
+
+3) Overal dezelfde vormtaal
+
+Nu: donkere secties met cards en borders.
+Oplossing: 5–6 layout patronen afwisselen:
+
+Full-bleed “statement” (grote quote)
+
+Split layout met beeld + korte bullets
+
+Editorial “mosaic” (McKinsey-achtige tiles)
+
+Timeline/roadmap (90 dagen)
+
+Impact/cijfers (grote numerals)
+
+Strakke CTA (kort, niet nog een mini-essay)
+
+Positionering (belangrijk): zo maak je het “jij”
+
+Je wil niet “senior senior” claimen, maar wél volwassen. Dus:
+
+Vervang “Fractional Head of BI” door 1 van deze (aanrader #1)
+
+Aanrader #1 (meest passend):
+“Strategisch BI & Data Regie”
+Sub: “Richting, eigenaarschap en een team dat het kan dragen.”
+
+Aanrader #2:
+“Interim BI Lead & Data Operating Model”
+Sub: “Niet bouwen voor u — maar het stuur neerzetten.”
+
+Aanrader #3:
+“BI Leadership as-a-service (2 dagen p/w)”
+Sub: “Van losse initiatieven naar één agenda.”
+
+Gebruik “Fractional” eventueel pas lager op de pagina als uitleg van de vorm (1–2 dagen p/w), niet als titel.
+
+Tekst: herschreven per kernsectie (copy die minder formeel is, maar premium blijft)
+HERO (nieuw voorstel)
+
+Eyebrow: Strategisch BI & Data Regie
+H1: Van data-chaos naar sturen op feiten.
+Sub: Wij helpen MT’s en data-teams om data terug te brengen tot één bestuurlijk instrument: met scherpe keuzes, KPI-eigenaarschap en een organisatie die het kan dragen.
+CTA 1: Plan kennismaking
+CTA 2: Bekijk aanpak (90 dagen)
+
+“WHY / PROBLEEM” (jouw haak, maar strakker)
+
+Titel: De regie-vraag
+Statement (groot): Als twee dashboards elkaar tegenspreken — wie beslist wat klopt?
+Body: Zolang niemand dat kan aanwijzen, blijft BI rapportage in plaats van sturing. Het probleem is zelden tooling. Het is eigenaarschap, prioriteit en ritme.
+3 bullets (kort):
+
+Vertrouwen ontbreekt — definities verschillen, discussies herhalen zich
+
+Prioriteit ontbreekt — alles mag, niets is echt leidend
+
+Eigenaarschap ontbreekt — KPI’s zonder eigenaar worden nooit stuurinformatie
+Resultaatbalk: Gevolg: besluitvorming vertraagt, verantwoordelijkheid vervaagt, BI wordt bijzaak.
+
+“WAT WE DOEN” (outcome-based, niet service-lijst)
+
+Titel: Wat u na 90 dagen heeft
+
+Eén BI-agenda (wat doen we wél/niet)
+
+Eén set stuur-KPI’s (met eigenaar + definities)
+
+Eén ritme (MT/teams) waarop besluiten echt landen
+
+Een team dat zelfstandig door kan
+
+“AANPAK” (3 fasen, maar concreter)
+
+Fase 1 — Diagnose (2 weken): waar in het besluitproces lekt het?
+Fase 2 — Agenda (4 weken): keuzes, KPI-set, roadmap, stoplijst
+Fase 3 — Inrichting (6 weken): operating model, governance light, coaching team
+
+“INSIGHTS” (editorial)
+
+Maak dit minder “blog” en meer “mini-publications”:
+
+“De KPI-kaart: van 80 metrics naar 8 stuurpunten”
+
+“Waarom dashboards vaak discussies verlengen”
+
+“Governance light: wel regie, geen bureaucratie”
+
+CTA / CONTACT (minder zwaar)
+
+Titel: Start met een regiesessie (60 min)
+Sub: We brengen in 1 uur scherp: wat is leidend, wat moet stoppen, en welk ritme nodig is om te sturen.
+Micro-proof: digitaal / op locatie, binnen 7 dagen mogelijk.
+
+Design: hoe maken we het state-of-the-art zonder “klik-interactie”
+
+Je voorbeelden (McKinsey/BCG/Bain) hebben 4 dingen die jij nog mist:
+
+A) “Cinematic” art direction
+
+Gebruik 1–2 hero visuals die je brand dragen (abstract, premium, geen generieke stock).
+
+Voeg grain/noise overlay toe (heel subtiel) → direct luxer.
+
+B) Editorial compositie (minder grids)
+
+Voeg 1–2 secties toe met grote tiles (masonry / asymmetrisch), zoals McKinsey.
+
+Wissel af met full-bleed quote sections en split image blocks.
+
+C) Accentkleur met “energie”
+
+Nu is het chic, maar te veilig. Kies:
+
+Basis: navy/ink (#0b1220-achtig)
+
+Primary accent: teal/emerald (huidige richting)
+
+Secondary “spark”: electric blue óf warm gold (heel spaarzaam, 5–10% usage)
+
+D) Subtiele motion (geen quiz, wel wow)
+
+Scroll-reveal (fade + translate, stagger op kaarten)
+
+Parallax op hero background (heel licht)
+
+Hover: kaarten “lift” + border glow (subtiel)
+
+Marquee voor “vertrouwd door…” (als je dat wilt) — geen click nodig
+
+Concrete verbeterpunten per sectie (wat aanpassen)
+Navigatie
+
+Maak CTA rechts contrasterend (filled + duidelijke label: “Plan kennismaking”).
+
+Voeg 1 korte “tagline” onder logo of in nav: “Data regie voor MT’s”.
+
+Hero
+
+Maak CTA prominenter + voeg 1 proof-line toe onder CTA: “90 dagen • 1–2 dagen p/w • tijdelijk leiderschap”.
+
+Quote / probleemblok
+
+Maak dit een signature section: groot statement, minder tekst, meer drama (typografie + ruimte).
+
+Doelgroepen (Directie/CFO/Head of BI/PE)
+
+Nu goed, maar maak het scherper: per doelgroep 1 echte pijn + 1 uitkomst.
+
+“Wat we doen” cards
+
+Minder “kaartjes met rand”. Gebruik 2 grote tiles + 2 kleine tiles (variatie).
+
+“90 dagen” aanpak
+
+Voeg een visuele timeline toe (lijn + milestones) en per fase 3 deliverables (max).
+
+Insights
+
+Maak het magazine-achtig: 1 grote feature + 2 kleinere + 1 “download blueprint”.
+
+Contact
+
+Minder tekst, meer structuur: “Wat u krijgt in de sessie” (3 bullets) + form.

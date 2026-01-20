@@ -2,28 +2,28 @@ import { ArrowRight } from "lucide-react";
 
 const services = [
   {
-    title: "Fractional Head of BI",
-    tag: "Leiderschap",
+    title: "Eén BI-agenda",
+    tag: "Agenda",
     description:
-      "1–2 dagen per week strategisch BI-leiderschap. Wij nemen eigenaarschap over roadmap, governance en teamrichting.",
+      "Een duidelijke lijst van wat wél en niet meer op de BI-agenda staat, afgestemd met MT en teams.",
   },
   {
-    title: "Data- & BI-strategie",
-    tag: "Richting",
+    title: "Scherpe stuur-KPI's",
+    tag: "KPI's",
     description:
-      "Een scherpe, uitvoerbare strategie die jouw data-initiatieven koppelt aan concrete businessdoelen en KPI's.",
+      "Een compacte set KPI's met definities, eigenaar en bron zodat discussies over cijfers stoppen.",
   },
   {
-    title: "Governance & Operating Model",
-    tag: "Structuur",
+    title: "Werkend ritme",
+    tag: "Ritme",
     description:
-      "Heldere rollen, processen en besluitlijnen zodat BI niet meer ‘nice to have’ is maar randvoorwaardelijk.",
+      "Een vast overleg- en beslisritme waarin dashboards leiden tot besluiten in plaats van discussies.",
   },
   {
-    title: "Interim BI-lead & transformatie",
-    tag: "Executie",
+    title: "Een zelfstandig team",
+    tag: "Team",
     description:
-      "Wanneer er nu iemand nodig is om de boel vlot te trekken: tijdelijk leiderschap met focus op resultaat.",
+      "Een BI- en datateam dat op eigen kracht volgens de nieuwe werkwijze kan blijven leveren.",
   },
 ];
 
@@ -33,14 +33,14 @@ export function WhatWeDo() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="mb-12 max-w-3xl">
           <span className="font-mono text-xs text-primary tracking-[0.2em] uppercase mb-4 block" data-testid="text-whatwedo-kicker">
-            Wat we doen
+            Wat u na 90 dagen heeft
           </span>
           <h2 className="text-4xl md:text-5xl font-serif text-white mb-4" data-testid="text-whatwedo-heading">
-            Van losse initiatieven naar één duidelijke BI-agenda.
+            Regie op data, zichtbaar in de praktijk.
           </h2>
           <p className="text-white/60 text-lg" data-testid="text-whatwedo-subtitle">
-            Wij werken als Fractional Head of BI naast jouw MT. Geen slides op afstand, maar
-            meedenken in de boardroom en meebeslissen over de backlog.
+            In een traject van 90 dagen brengen we orde in agenda, KPI's en ritme – zodat data weer een bestuurlijk
+            instrument wordt in plaats van ruis.
           </p>
         </div>
 

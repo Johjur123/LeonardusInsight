@@ -42,8 +42,13 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <Link href="/">
-          <span className="text-xl font-mono tracking-widest text-white cursor-pointer hover:text-primary transition-colors duration-300 group">
-            FRACTIONAL<span className="text-primary group-hover:text-white transition-colors">_</span>BI
+          <span className="flex flex-col cursor-pointer group" data-testid="link-logo">
+            <span className="text-xl font-mono tracking-widest text-white hover:text-primary transition-colors duration-300">
+              FRACTIONAL<span className="text-primary group-hover:text-white transition-colors">_</span>BI
+            </span>
+            <span className="text-[10px] font-mono tracking-[0.25em] uppercase text-white/40 group-hover:text-white/60 transition-colors" data-testid="text-nav-tagline">
+              Data regie voor MT's
+            </span>
           </span>
         </Link>
 
@@ -67,8 +72,9 @@ export function Navbar() {
             variant="outline"
             className="border-white/20 text-white hover:bg-white/10 hover:text-white rounded-none px-8 font-mono text-xs tracking-widest uppercase transition-all hover:border-primary/50"
             onClick={() => handleNavClick("#contact")}
+            data-testid="button-nav-cta"
           >
-            Start Strategy
+            Plan kennismaking
           </Button>
         </div>
 
@@ -99,8 +105,9 @@ export function Navbar() {
                 <Button 
                   className="w-full bg-primary text-background hover:bg-primary/90 rounded-none py-6 text-sm font-mono tracking-widest uppercase"
                   onClick={() => handleNavClick("#contact")}
+                  data-testid="button-nav-cta-mobile"
                 >
-                  Start Strategy
+                  Plan kennismaking
                 </Button>
               </div>
             </SheetContent>
