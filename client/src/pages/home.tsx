@@ -51,6 +51,9 @@ export default function Home() {
               src={heroBg} 
               alt="Cinematic Background" 
               className="w-full h-full object-cover scale-110"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
            />
            <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/10 to-background" />
            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-background/20 to-background" />

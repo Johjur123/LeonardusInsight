@@ -28,6 +28,8 @@ export function AboutFractionalBI() {
               src={aboutImg}
               alt="Strategisch BI-consultant in gesprek met bestuur"
               className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
               data-testid="img-about-consultant"
             />
           </div>
