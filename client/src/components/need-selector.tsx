@@ -95,7 +95,7 @@ export function NeedSelector() {
   const current = recommendations[persona][challenge];
 
   return (
-    <section id="expertise" className="py-24 bg-background border-y border-white/5 relative overflow-hidden">
+    <section className="py-24 bg-surface-alt border-y border-white/5 relative overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 relative z-10 grid lg:grid-cols-2 gap-16 items-start">
         <div>
           <span className="font-mono text-xs text-primary tracking-[0.2em] uppercase mb-4 block">
@@ -121,7 +121,7 @@ export function NeedSelector() {
                 </label>
                 <select
                   data-testid="select-persona"
-                  className="w-full bg-background border border-white/10 px-4 py-3 text-sm text-white/90 focus:border-primary outline-none cursor-pointer"
+                  className="w-full bg-background border border-white/10 px-4 py-3 text-sm text-white/90 focus:border-primary outline-none cursor-pointer focus-ring-accent"
                   value={persona}
                   onChange={(e) => setPersona(e.target.value as Persona)}
                 >
@@ -139,7 +139,7 @@ export function NeedSelector() {
                 </label>
                 <select
                   data-testid="select-challenge"
-                  className="w-full bg-background border border-white/10 px-4 py-3 text-sm text-white/90 focus:border-primary outline-none cursor-pointer"
+                  className="w-full bg-background border border-white/10 px-4 py-3 text-sm text-white/90 focus:border-primary outline-none cursor-pointer focus-ring-accent"
                   value={challenge}
                   onChange={(e) => setChallenge(e.target.value as Challenge)}
                 >

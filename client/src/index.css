@@ -92,6 +92,32 @@
     background: linear-gradient(180deg, hsl(222 47% 4%) 0%, hsl(222 47% 8%) 100%);
   }
 
+  /* New lighter surfaces for dual-tone layout */
+  .bg-surface-light {
+    background: radial-gradient(circle at top left, rgba(59,130,246,0.10), transparent 55%), #0B1020;
+  }
+
+  .bg-surface-alt {
+    background: radial-gradient(circle at bottom right, rgba(251,191,36,0.10), transparent 55%), #050A14;
+  }
+
+  .badge-strategy {
+    background: linear-gradient(120deg, #3B82F6, #22C55E);
+  }
+
+  .badge-leadership {
+    background: linear-gradient(120deg, #A855F7, #F97316);
+  }
+
+  .badge-tech {
+    background: linear-gradient(120deg, #06B6D4, #3B82F6);
+  }
+
+  .focus-ring-accent:focus-visible {
+    outline: 2px solid #22C55E;
+    outline-offset: 2px;
+  }
+
   .glass-panel {
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(12px);

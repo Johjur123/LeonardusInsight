@@ -29,7 +29,7 @@ const services = [
 
 export function WhatWeDo() {
   return (
-    <section id="expertise" className="py-24 bg-background relative">
+    <section id="expertise" className="py-24 bg-surface-light relative">
       <div className="container mx-auto px-6 md:px-12">
         <div className="mb-12 max-w-3xl">
           <span className="font-mono text-xs text-primary tracking-[0.2em] uppercase mb-4 block" data-testid="text-whatwedo-kicker">
@@ -48,11 +48,11 @@ export function WhatWeDo() {
           {services.map((service, index) => (
             <div
               key={service.title}
-              className="group border border-white/10 bg-card/60 p-6 flex flex-col justify-between cursor-pointer hover:border-primary/60 hover:bg-card transition-colors"
+              className="group border border-white/10 bg-card/60 p-6 flex flex-col justify-between cursor-pointer hover:border-primary/60 hover:bg-card transition-colors focus-ring-accent"
               data-testid={`card-service-${index}`}
             >
               <div>
-                <span className="inline-flex items-center text-[10px] font-mono uppercase tracking-[0.2em] text-white/40 mb-4">
+                <span className="inline-flex items-center text-[10px] font-mono uppercase tracking-[0.2em] text-white mb-4 px-3 py-1 rounded-full bg-white/5 border border-white/10">
                   {service.tag}
                 </span>
                 <h3 className="text-xl font-serif text-white mb-3 group-hover:text-primary transition-colors">
