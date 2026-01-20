@@ -76,7 +76,7 @@ export default function Home() {
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-[1.1] mb-8 text-foreground text-balance h-[3.3em]">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-8 text-foreground text-balance min-h-[3.3em]">
               Van Data Chaos naar <br/>
               <AnimatePresence mode="wait">
                 <motion.span 
@@ -85,14 +85,14 @@ export default function Home() {
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: -20, opacity: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="italic text-primary border-b-4 border-secondary/20 inline-block"
+                    className="italic text-primary border-b-4 border-secondary/20 inline-block pb-2"
                 >
                     {words[index]}
                 </motion.span>
               </AnimatePresence>
             </h1>
             
-            <p className="text-xl text-muted-foreground leading-relaxed mb-10 font-light border-l-4 border-border pl-6">
+            <p className="text-xl text-muted-foreground leading-relaxed mb-10 font-light border-l-4 border-border pl-6 mt-4">
               Wij brengen mandaat, eigenaarschap en prioriteit terug in uw BI—zodat cijfers weer besluitvorming dragen.
             </p>
             
@@ -159,15 +159,9 @@ export default function Home() {
         </div>
       </section>
 
-      <StatsTicker />
-
       {/* Methodology Section */}
       <MethodologySection />
-      
-      {/* 3-Click Maturity Check (Replaces Hard Truths) */}
-      <MaturityCheck />
 
-      {/* Services List */}
       <section id="expertise" className="py-24 md:py-32 bg-background">
         <div className="container mx-auto px-6 md:px-12">
           <div className="max-w-4xl mb-16">
