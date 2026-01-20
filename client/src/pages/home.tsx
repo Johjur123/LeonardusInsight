@@ -5,8 +5,11 @@ import { ArrowUpRight } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BentoGrid } from "@/components/bento-grid";
 import { SocialProof } from "@/components/social-proof";
+import { ForWhoWeWork } from "@/components/for-who-we-work";
+import { AboutFractionalBI } from "@/components/about-fractional-bi";
 import { WhatWeDo } from "@/components/what-we-do";
 import { NeedSelector } from "@/components/need-selector";
+import { DecisionSimulator } from "@/components/decision-simulator";
 import { MagneticCursor } from "@/components/magnetic-cursor";
 import { useEffect } from "react";
 import Lenis from "lenis";
@@ -123,6 +126,10 @@ export default function Home() {
 
       <SocialProof />
 
+      <ForWhoWeWork />
+
+      <AboutFractionalBI />
+
       <WhatWeDo />
 
       <NeedSelector />
@@ -145,22 +152,24 @@ export default function Home() {
          </div>
       </section>
 
+      <DecisionSimulator />
+
       {/* CTA Section */}
       <section id="contact" className="py-32 bg-background relative border-t border-white/5">
         <div className="container mx-auto px-6 md:px-12">
            <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div>
-                 <span className="font-mono text-xs text-primary tracking-widest uppercase mb-6 block">Initiate Dialogue</span>
+                 <span className="font-mono text-xs text-primary tracking-widest uppercase mb-6 block">Verkennend gesprek</span>
                  <h2 className="text-5xl md:text-7xl font-serif text-white mb-8">
-                    Let's Talk <br/>Strategy.
+                    Laten we uw datasturing <br/>onder de loep nemen.
                  </h2>
                  <p className="text-xl text-white/50 font-light max-w-md mb-12">
-                    Schedule a confidential consultation to discuss your organization's data maturity and strategic goals.
+                    Op basis van de Decision Simulator of uw eigen casus plannen we een sessie van 60 minuten – digitaal of in Amsterdam.
                  </p>
                  <div className="flex gap-8 text-white/40 font-mono text-xs uppercase tracking-widest">
                     <span>Amsterdam</span>
                     <span>•</span>
-                    <span>Remote Capable</span>
+                    <span>Remote capable</span>
                  </div>
               </div>
 
@@ -169,20 +178,20 @@ export default function Home() {
                  
                  <form className="space-y-8 relative z-10" onSubmit={(e) => e.preventDefault()}>
                     <div className="space-y-2">
-                       <label className="font-mono text-xs text-white/40 uppercase tracking-widest">Name</label>
-                       <input type="text" className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:border-primary outline-none transition-colors" placeholder="Your Name" />
+                       <label className="font-mono text-xs text-white/40 uppercase tracking-widest">Naam</label>
+                       <input type="text" className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:border-primary outline-none transition-colors" placeholder="Uw naam" data-testid="input-contact-name" />
                     </div>
                     <div className="space-y-2">
-                       <label className="font-mono text-xs text-white/40 uppercase tracking-widest">Corporate Email</label>
-                       <input type="email" className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:border-primary outline-none transition-colors" placeholder="name@company.com" />
+                       <label className="font-mono text-xs text-white/40 uppercase tracking-widest">Zakelijk e-mailadres</label>
+                       <input type="email" className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:border-primary outline-none transition-colors" placeholder="naam@organisatie.nl" data-testid="input-contact-email" />
                     </div>
                     <div className="space-y-2">
-                       <label className="font-mono text-xs text-white/40 uppercase tracking-widest">Challenge</label>
-                       <textarea className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:border-primary outline-none transition-colors h-32 resize-none" placeholder="Briefly describe your strategic data needs..." />
+                       <label className="font-mono text-xs text-white/40 uppercase tracking-widest">Korte context</label>
+                       <textarea className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:border-primary outline-none transition-colors h-32 resize-none" placeholder="Waar wilt u het in de sessie specifiek over hebben?" data-testid="textarea-contact-context" />
                     </div>
                     
-                    <Button size="lg" className="w-full bg-white text-background hover:bg-white/90 h-14 rounded-none font-mono text-xs uppercase tracking-widest mt-4">
-                       Request Consultation
+                    <Button size="lg" className="w-full bg-white text-background hover:bg-white/90 h-14 rounded-none font-mono text-xs uppercase tracking-widest mt-4" data-testid="button-contact-submit">
+                       Verstuur verzoek
                     </Button>
                  </form>
               </div>
