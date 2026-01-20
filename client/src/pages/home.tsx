@@ -41,11 +41,11 @@ export default function Home() {
       <Navbar />
 
       {/* Cinematic Hero Section */}
-      <section className="relative min-h-[80vh] md:h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[80vh] md:h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-black/80 via-black/70 to-background">
         {/* Living Background */}
         <motion.div 
           style={{ y: yHero, opacity: opacityHero }}
-          className="absolute inset-0 z-0"
+          className="absolute inset-0 z-0 mix-blend-screen opacity-70"
         >
            <img 
               src={heroBg} 
@@ -58,7 +58,7 @@ export default function Home() {
 
         <div className="container mx-auto px-6 md:px-12 relative z-10 mt-20">
            <div className="max-w-5xl md:max-w-6xl flex flex-col md:flex-row gap-12 items-start">
-              <div className="md:w-2/3">
+              <div className="md:w-2/3 bg-black/60 backdrop-blur-sm border border-white/5 px-6 md:px-8 py-8 md:py-10">
                 <motion.div 
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -119,10 +119,10 @@ export default function Home() {
            </div>
 
            <div className="hidden md:block md:w-1/3">
-             <div className="glass-panel rounded-sm p-6 max-w-xs ml-auto bg-black/30 border-white/20">
+             <div className="rounded-sm p-6 max-w-xs ml-auto bg-black/80 border border-white/10 shadow-xl shadow-black/40">
                <p className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-3">Signature metric</p>
-               <p className="text-sm text-white/80 mb-4">Als morgen twee dashboards elkaar tegenspreken, is het direct duidelijk wie beslist wat klopt.</p>
-               <p className="text-xs text-white/50">Geen extra tooling, wel duidelijke regie op KPI's, definities en eigenaarschap.</p>
+               <p className="text-sm text-white/90 mb-4">Als morgen twee dashboards elkaar tegenspreken, is het direct duidelijk wie beslist wat klopt.</p>
+               <p className="text-xs text-white/60">Geen extra tooling, wel duidelijke regie op KPI's, definities en eigenaarschap.</p>
              </div>
            </div>
         </div>
