@@ -37,8 +37,8 @@
 }
 
 :root {
-  /* Midnight & Neon Theme */
-  --background: 222 47% 4%;     /* #050A14 - Almost Black Midnight */
+  /* Midnight & Neon Theme (iets lichter gemaakt) */
+  --background: 222 47% 6%;     /* iets lichter dan #050A14 voor meer ademruimte */
   --foreground: 210 40% 98%;    /* White */
 
   --card: 222 47% 6%;           /* Slightly lighter midnight */
