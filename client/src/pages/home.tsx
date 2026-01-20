@@ -5,6 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BentoGrid } from "@/components/bento-grid";
 import { SocialProof } from "@/components/social-proof";
+import { WhatWeDo } from "@/components/what-we-do";
 import { NeedSelector } from "@/components/need-selector";
 import { MagneticCursor } from "@/components/magnetic-cursor";
 import { useEffect } from "react";
@@ -63,8 +64,8 @@ export default function Home() {
                 className="flex items-center gap-4 mb-8"
               >
                  <div className="h-px w-12 bg-primary" />
-                 <span className="font-mono text-xs text-primary tracking-[0.2em] uppercase">
-                    Strategic Data Consultancy
+                 <span className="font-mono text-xs text-primary tracking-[0.2em] uppercase" data-testid="text-hero-kicker">
+                    Fractional Head of BI & Data Strategie
                  </span>
               </motion.div>
 
@@ -73,9 +74,10 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-6xl md:text-8xl lg:text-9xl font-serif text-white leading-[0.9] tracking-tight mb-12"
+                data-testid="text-hero-heading"
               >
-                 Winning <br/>
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">with Data.</span>
+                 Beslissen <br/>
+                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">met Data, niet op gevoel.</span>
               </motion.h1>
 
               <motion.div 
@@ -84,16 +86,17 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className="flex flex-col md:flex-row gap-8 md:items-center max-w-2xl"
               >
-                 <p className="text-lg text-white/60 leading-relaxed font-light">
-                    We transform fragmented data landscapes into strategic engines. 
-                    Bringing clarity, governance, and leadership to the modern boardroom.
+                 <p className="text-lg text-white/60 leading-relaxed font-light" data-testid="text-hero-subtitle">
+                    Fractional BI-leiderschap voor organisaties die meer verwachten van hun cijfers dan alleen rapportage. 
+                    Wij vertalen uw datalandschap naar heldere besluiten, governance en eigenaarschap op C-level.
                  </p>
                  <Button 
                     size="lg" 
                     className="bg-white text-background hover:bg-white/90 h-16 px-10 rounded-none text-sm font-mono uppercase tracking-widest flex items-center gap-2 group min-w-[200px]"
                     onClick={() => document.querySelector('#insights')?.scrollIntoView({ behavior: 'smooth' })}
+                    data-testid="button-hero-cta"
                  >
-                    Explore Strategy
+                    Bekijk onze aanpak
                     <ArrowUpRight className="w-4 h-4 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
                  </Button>
               </motion.div>
@@ -119,6 +122,8 @@ export default function Home() {
       </section>
 
       <SocialProof />
+
+      <WhatWeDo />
 
       <NeedSelector />
 

@@ -18,8 +18,8 @@ export function Navbar() {
   }, []);
 
   const navItems = [
-    { label: "Insights", href: "#insights" },
-    { label: "Expertise", href: "#expertise" },
+    { label: "Inzichten", href: "#insights" },
+    { label: "Wat we doen", href: "#expertise" },
     { label: "Impact", href: "#impact" },
   ];
 

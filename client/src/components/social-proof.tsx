@@ -12,8 +12,8 @@ export function SocialProof() {
     <section className="border-y border-white/5 bg-black/40 backdrop-blur-sm py-16 overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row gap-12 items-center">
          <div className="w-full md:w-auto md:border-r border-white/10 md:pr-12 text-center md:text-left shrink-0">
-            <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40 block mb-2">Previous Engagements</span>
-            <span className="font-serif text-xl text-white">Trusted by Leaders</span>
+            <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40 block mb-2">Eerdere trajecten</span>
+            <span className="font-serif text-xl text-white">Vertrouwd door leiders</span>
          </div>
          
          <div className="flex-1 overflow-hidden w-full relative mask-gradient-x">

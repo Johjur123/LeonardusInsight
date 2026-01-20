@@ -8,23 +8,23 @@ import dashImg from "@assets/generated_images/futuristic_dashboard_projection_on
 
 const insights = [
   {
-    category: "STRATEGY",
-    title: "Winning with AI: Why Governance is the New Gold",
-    desc: "Without structure, AI is just noise. Learn how top-tier firms are leveraging strict data governance to fuel scalable AI models.",
+    category: "STRATEGIE",
+    title: "Van datapunt naar besluit: zo bouwt u een echte BI-roadmap",
+    desc: "Hoe u in 90 dagen duidelijk maakt welke rapportages verdwijnen, welke blijven en welke nieuw nodig zijn.",
     image: cubeImg,
     size: "large"
   },
   {
-    category: "LEADERSHIP",
-    title: "The Fractional Executive Model",
-    desc: "Why the modern boardroom needs agility over permanence.",
+    category: "LEIDERSCHAP",
+    title: "Fractional Head of BI: leiderschap zonder fulltime overhead",
+    desc: "Waarom steeds meer organisaties kiezen voor bestuurders op afroep in plaats van het volgende vaste FTE.",
     image: chessImg,
     size: "small"
   },
   {
-    category: "TECHNOLOGY",
-    title: "Beyond the Dashboard",
-    desc: "Moving from passive reporting to predictive intervention.",
+    category: "TECHNOLOGIE",
+    title: "Voorbij het dashboard: sturen op signalen in plaats van tabellen",
+    desc: "Van maandelijkse rapportages naar continue monitoring van de uitzonderingen die ertoe doen.",
     image: dashImg,
     size: "small"
   }
@@ -36,11 +36,11 @@ export function BentoGrid() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="mb-16 flex justify-between items-end">
            <div>
-              <span className="font-mono text-xs text-primary tracking-widest uppercase mb-4 block">Our Latest Insights</span>
-              <h2 className="text-4xl md:text-5xl font-serif text-white">Strategic Perspectives</h2>
+              <span className="font-mono text-xs text-primary tracking-widest uppercase mb-4 block">Laatste inzichten</span>
+              <h2 className="text-4xl md:text-5xl font-serif text-white">Inzichten voor de bestuurskamer</h2>
            </div>
-           <button className="hidden md:flex items-center gap-2 text-white/60 hover:text-white transition-colors font-mono text-xs uppercase tracking-widest group">
-              View All Insights
+           <button className="hidden md:flex items-center gap-2 text-white/60 hover:text-white transition-colors font-mono text-xs uppercase tracking-widest group" data-testid="button-insights-all">
+              Alle artikelen
               <ArrowUpRight className="w-4 h-4 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
            </button>
         </div>

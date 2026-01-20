@@ -10,8 +10,8 @@ export function Footer() {
         <div className="grid md:grid-cols-12 gap-16 mb-24">
           <div className="md:col-span-6">
             <h3 className="text-4xl md:text-5xl font-serif mb-8 text-white leading-tight">
-              Ready to redefine <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">your data legacy?</span>
+              Klaar om <br/>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary tosecondary">uw datasturing opnieuw te definiëren?</span>
             </h3>
             <div className="flex gap-4">
                <a href="mailto:info@fractionalbi.nl" className="group flex items-center gap-2 text-lg font-mono text-white/60 hover:text-white transition-colors border-b border-transparent hover:border-primary pb-1">
@@ -50,8 +50,8 @@ export function Footer() {
         </div>
         
         <div className="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center text-[10px] font-mono text-white/30 uppercase tracking-widest">
-          <div>© {new Date().getFullYear()} Fractional BI. All rights reserved.</div>
-          <div className="mt-4 md:mt-0">Amsterdam • London • New York</div>
+          <div>© {new Date().getFullYear()} Fractional BI. Alle rechten voorbehouden.</div>
+          <div className="mt-4 md:mt-0">Amsterdam • Remote-first</div>
         </div>
       </div>
     </footer>
